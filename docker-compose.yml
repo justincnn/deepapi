@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   deepapi:
-    image: ghcr.io/zhongruan0522/deepapi:beta
+    image: justincnn/deepapi:latest
     container_name: deepapi
     ports:
       - "8000:8000"
